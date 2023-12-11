@@ -1,0 +1,18 @@
+.main-board-top{
+  height: 48px;
+  border-bottom: 1px solid #1f2103;
+  display: flex;
+  align-items: center;
+}
+
+.friends{
+  font-weight: bold;
+  margin: 0 15px;
+  display: flex;
+  align-items: center;
+}
+
+.friends-img{
+  height: 25px;
+  filter: brightness(0) saturate(100%) invert(83%) sepia(8%) saturate(213%) hue-rotate(175deg) brightness(88%) contrast(94%);
+}

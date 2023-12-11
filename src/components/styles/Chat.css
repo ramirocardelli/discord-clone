@@ -1,0 +1,26 @@
+.chat-img{
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+}
+
+.chat{
+  margin: 2px 8px;
+  height: 42px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 10px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.chat:hover{
+  background-color: #35373c;
+}
+
+.chat-name{
+  margin-left: 10px;
+  font-family: sans-serif;
+}

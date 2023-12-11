@@ -1,0 +1,35 @@
+.profile-info{
+  display: flex;
+  width: 122px;
+  height: 42px;
+  margin-left: 10px;
+  padding-left: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  user-select: none;
+  align-items: center;
+}
+
+.profile-info:hover{
+  background-color: #3d3e45;
+}
+
+.profile-name-and-state{
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 6px 0;
+}
+
+.profile-name{
+  color: white;
+  font-family: sans-serif;
+  font-size: 0.9em;
+}
+
+.profile-state{
+  font-family: sans-serif;
+  font-size: 0.7em;
+  color: #949ba4;
+}

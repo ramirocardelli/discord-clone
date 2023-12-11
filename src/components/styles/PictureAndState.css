@@ -1,0 +1,38 @@
+.picture-and-state{
+  display: flex;
+  user-select: none;
+}
+
+.profile-pic{
+  height: 32px;
+  width: 32px;
+  border-radius: 100px;
+}
+
+.state-dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 100px;
+  margin-top: 20px;
+  margin-left: -12px;
+  border: 2px solid #232428;
+  bottom: 0;
+}
+
+.online{
+  background-color: #23a55a;
+}
+
+.absent{
+  background-color: #f0b132;
+}
+
+.dont-disturb{
+  background-color: #f23f42;
+}
+
+.invisible{
+  background-color: #232428;
+  outline: 2px solid #7c808b;
+  outline-offset: -4px;
+}

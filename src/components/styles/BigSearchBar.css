@@ -1,0 +1,18 @@
+.big-search-bar-input{ 
+  background-color: #1e1f22;
+  border-radius: 3px;
+  padding: 8px;
+  outline: none;
+  border: 0;
+  width: calc(100% - 80px);
+  margin-top: 20px;
+  color:#949ba4;
+  font-size: 1em;
+}
+
+.big-search-bar{
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

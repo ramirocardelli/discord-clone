@@ -1,0 +1,6 @@
+.main-board-bottom{
+  width: 100%;
+  height: calc(100% - 49px);
+  top: 0;
+  bottom: 0;
+}

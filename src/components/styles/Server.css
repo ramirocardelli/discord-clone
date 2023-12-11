@@ -1,0 +1,39 @@
+.server{
+  background-color: #313338;
+  color: white;
+  height: 48px;
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  margin: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.direct-message{
+  background-color: #5865f2 !important;
+}
+
+.selected{
+  border-radius: 18px !important;
+}
+
+.server-img{
+  width: 30px;
+  filter: brightness(0) invert(1);
+}
+
+.first{
+  margin-bottom: 10px;
+}
+
+.selected-band{
+  position: absolute;
+  background-color: white;
+  height: 40px;
+  margin-top: 6px;
+  width:4px;
+  border-radius: 0 10px 10px 0;
+}

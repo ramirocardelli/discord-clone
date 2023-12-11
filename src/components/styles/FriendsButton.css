@@ -1,0 +1,17 @@
+.friends-button{
+  margin: 0 10px;
+  padding: 4px 10px;
+  border-radius: 3px;
+  color: #949ba4;
+  cursor: pointer;
+  user-select: none;
+}
+
+.friends-button:hover{
+  background-color: #43444b;
+}
+
+.add-friend, .add-friend:hover{
+  background-color: #248046;
+  color: white;
+}

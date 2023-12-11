@@ -1,0 +1,27 @@
+.item{
+  background-color: transparent;
+  margin: 5px 7px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  color: #949ba4;
+  cursor: pointer;
+  user-select: none;
+}
+
+.item-img{
+  height: 25px;
+  filter: brightness(0) saturate(100%) invert(83%) sepia(8%) saturate(213%) hue-rotate(175deg) brightness(88%) contrast(94%);
+}
+
+.item-text{
+  font-family: sans-serif;
+  font-weight: 300;
+  margin-left: 15px;
+}
+
+.item:hover{
+  background-color: #404249;
+}

@@ -1,0 +1,8 @@
+.lateral-bar{
+  width: 72px;
+  height: 100%;
+  background-color: #1e1f22;
+  position: inherit;
+  font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
